@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#mainContainer{
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#warriorsPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#hitPanel {
+    display: flex;
+    width: 40em;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clickWarrior {
+
+    margin: 2em;
+
+    cursor: pointer;
+    transition: 0.4s;
+
+
+}
+
+.clickWarrior:hover {
+
+    transition: 0.4s;
+    box-shadow: 0 0 1em black;
+
+}
+
+.warriorAvatar {
+    height: 14em;
+}
+
+.hitDesign {
+    height: 8em;
+
+    color: black;
+    font-weight: bolder;
+    font-size: 2em;
+}

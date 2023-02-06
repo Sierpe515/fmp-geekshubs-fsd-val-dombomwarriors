@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="./css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="mainContainer">
+        <div id="warriorsPanel">
+            <div class="clickWarrior" onclick="warriorHit('1')"><img class="warriorAvatar" src="./img/1.png"/></div>
+            <div class="clickWarrior" onclick="warriorHit('2')"><img class="warriorAvatar" src="./img/2.png"/></div>
+            <div class="clickWarrior" onclick="warriorHit('3')"><img class="warriorAvatar" src="./img/3.png"/></div>
+            <div class="clickWarrior" onclick="warriorHit('4')"><img class="warriorAvatar" src="./img/4.png"/></div>
+        </div>
+        <div id="hitPanel">
+            <div id="1" class="hitDesign">0</div>
+            <div id="2" class="hitDesign">0</div>
+            <div id="3" class="hitDesign">0</div>
+            <div id="4" class="hitDesign">0</div>
+        </div>
+    </div>
+    
+
+    <script src="./js/warriors.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
